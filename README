@@ -1,0 +1,30 @@
+*shymenu.txt*  Show the menu bar only when pressing an accelerator key
+
+shymenu will show the menu bar only when the user presses an accelerator 
+key. The menu will be hidden again after an item was selected.
+shymenu achieves this by defining key maps for those accelerator keys 
+(see 'winaltkeys') that would normaly activate a menu.
+
+On a terminal, shymenu will define accelerator keys for the |:emenu| 
+command.
+
+In order to use this plugin, remove "m" from 'guioptions' by adding 
+something like this to your |vimrc| file, which will hide the menu bar 
+by default: >
+
+   set guioptions-=m
+
+
+See also:
+http://groups.google.com/group/vim_use/browse_frm/thread/44c870c1e930bcc0
+
+Many thanks to A Mechelynck for making me aware of 'wildcharm' and the 
+trick with |:emenu|.
+
+
+-----------------------------------------------------------------------
+
+Status:  Works for me (there may be some minor quirks)
+Install: See http://github.com/tomtom/vimtlib/blob/master/INSTALL.TXT
+See http://github.com/tomtom for related plugins.
+
