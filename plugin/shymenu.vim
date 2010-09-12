@@ -3,8 +3,8 @@
 " @Website:     http://www.vim.org/account/profile.php?user_id=4037
 " @License:     GPL (see http://www.gnu.org/licenses/gpl.txt)
 " @Created:     2008-11-12.
-" @Last Change: 2010-05-23.
-" @Revision:    161
+" @Last Change: 2010-09-12.
+" @Revision:    162
 " GetLatestVimScripts: 2437 0 shymenu.vim
 
 if &cp || exists("loaded_shymenu")
@@ -248,7 +248,11 @@ function! s:ShyMenuInstall() "{{{3
 endf
 
 
-autocmd ShyMenu VimEnter * call s:ShyMenuInstall()
+if has('vim_starting')
+    autocmd ShyMenu VimEnter * call s:ShyMenuInstall()
+else
+    call s:ShyMenuInstall()
+endif
 
 
 silent! map <expr> <unique> <f10> ShyMenuShow("\<f10>")
