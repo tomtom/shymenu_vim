@@ -255,8 +255,10 @@ else
 endif
 
 
-silent! map <expr> <unique> <f10> ShyMenuShow("\<f10>")
-silent! imap <expr> <unique> <f10> ShyMenuShow("\<f10>")
+if has('gui_running')
+    silent! map <expr> <unique> <f10> ShyMenuShow("\<f10>")
+    silent! imap <expr> <unique> <f10> ShyMenuShow("\<f10>")
+endif
 
 
 let &cpo = s:save_cpo
