@@ -3,8 +3,8 @@
 " @Website:     http://www.vim.org/account/profile.php?user_id=4037
 " @License:     GPL (see http://www.gnu.org/licenses/gpl.txt)
 " @Created:     2008-11-12.
-" @Last Change: 2010-09-12.
-" @Revision:    162
+" @Last Change: 2010-09-13.
+" @Revision:    164
 " GetLatestVimScripts: 2437 0 shymenu.vim
 
 if &cp || exists("loaded_shymenu")

@@ -1,5 +1,3 @@
-*shymenu.txt*  Show the menu bar only when pressing an accelerator key
-
 shymenu will show the menu bar only when the user presses an accelerator 
 key. The menu will be hidden again after an item was selected.
 shymenu achieves this by defining key maps for those accelerator keys 
