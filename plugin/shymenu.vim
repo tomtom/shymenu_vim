@@ -255,6 +255,10 @@ else
 endif
 
 
+" Toggle the menu
+command! ShyMenu call ShyMenu(-1, '')
+
+
 if has('gui_running')
     silent! map <expr> <unique> <f10> ShyMenuShow("\<f10>")
     silent! imap <expr> <unique> <f10> ShyMenuShow("\<f10>")
