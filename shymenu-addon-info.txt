@@ -1,9 +1,0 @@
-{
-  "name" : "shymenu",
-  "version" : "dev",
-  "author" : "Tom Link <micathom at gmail com>",
-  "maintainer" : "Tom Link <micathom at gmail com>",
-  "repository" : {"type": "git", "url": "git://github.com/tomtom/shymenu_vim.git"},
-  "dependencies" : {},
-  "description" : "Show the menu bar only when pressing an accelerator key"
-}
