@@ -4,14 +4,10 @@
 " @License:     GPL (see http://www.gnu.org/licenses/gpl.txt)
 " @Created:     2008-11-12.
 " @Last Change: 2012-03-23.
-" @Revision:    170
+" @Revision:    176
 " GetLatestVimScripts: 2437 0 shymenu.vim
 
 if &cp || exists("loaded_shymenu")
-    finish
-endif
-" Disable shymenu for ubuntu unity
-if exists("$UBUNTU_MENUPROXY") && !empty($UBUNTU_MENUPROXY)
     finish
 endif
 let loaded_shymenu = 4
