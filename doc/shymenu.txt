@@ -49,6 +49,7 @@ Contents~
         g:shymenu_options ............. |g:shymenu_options|
         ShyMenu ....................... |ShyMenu()|
         ShyMenuShow ................... |ShyMenuShow()|
+        :ShyMenu ...................... |:ShyMenu|
 
 
 ========================================================================
@@ -112,6 +113,10 @@ ShyMenu(mode, key)
 
                                                     *ShyMenuShow()*
 ShyMenuShow(key)
+
+                                                    *:ShyMenu*
+:ShyMenu
+    Toggle the menu
 
 
 
